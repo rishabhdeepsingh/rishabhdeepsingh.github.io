@@ -27,7 +27,7 @@ class SideBar extends Component {
                         Resume
                     </NavText>
                 </NavItem>
-                <NavItem eventKey="algovisual">
+                <NavItem eventKey="Algovisual">
                     <NavIcon>
                         <PictureAsPdfTwoToneIcon/>
                     </NavIcon>
