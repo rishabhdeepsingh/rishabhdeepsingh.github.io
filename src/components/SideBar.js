@@ -27,6 +27,14 @@ class SideBar extends Component {
                         Resume
                     </NavText>
                 </NavItem>
+                <NavItem eventKey="algovisual">
+                    <NavIcon>
+                        <PictureAsPdfTwoToneIcon/>
+                    </NavIcon>
+                    <NavText>
+                        AlgoVisual
+                    </NavText>
+                </NavItem>
             </SideNav.Nav>
         </SideNav>;
     }
