@@ -1,14 +1,12 @@
 $(document).ready(function() {
-    if (!Raphael.svg) {
-        window.location = './notsupported.html';
-    }
+  if (!Raphael.svg) {
+    window.location = './notsupported.html';
+  }
 
-    // suppress select events
-    $(window).bind('selectstart', function(event) {
-        event.preventDefault();
-    });
+  // suppress select events
+  $(window).bind('selectstart', function(event) { event.preventDefault(); });
 
-    // initialize visualization
-    Panel.init();
-    Controller.init();
+  // initialize visualization
+  Panel.init();
+  Controller.init();
 });
