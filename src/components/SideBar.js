@@ -19,7 +19,7 @@ class SideBar extends Component {
                         Home
                     </NavText>
                 </NavItem>
-                <NavItem eventKey="resume">
+                <NavItem eventKey="resume.pdf">
                     <NavIcon>
                         <PictureAsPdfTwoToneIcon/>
                     </NavIcon>
@@ -36,7 +36,7 @@ class SideBar extends Component {
                     </NavText>
                 </NavItem>
             </SideNav.Nav>
-        </SideNav>;
+        </SideNav>
     }
 }
 
