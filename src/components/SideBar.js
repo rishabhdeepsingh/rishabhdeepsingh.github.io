@@ -28,7 +28,7 @@ class SideBar extends Component {
         </NavItem>
         <NavItem eventKey="Algovisual">
           <NavIcon>
-            <img src={AlgovisualIcon} width={40} height={40}/>
+            <img src={AlgovisualIcon} width={40} height={40} alt="Algovisual"/>
           </NavIcon>
           <NavText>
             AlgoVisual
