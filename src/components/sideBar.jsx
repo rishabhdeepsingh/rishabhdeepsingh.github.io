@@ -10,7 +10,7 @@ class SideBar extends Component {
     return (
       <SideNav onSelect={this.props.onSelect}>
         <SideNav.Toggle />
-        <SideNav.Nav defaultSelected="home">
+        <SideNav.Nav defaultSelected="/">
           <NavItem eventKey="/">
             <NavIcon>
               <HomeTwoToneIcon />
@@ -24,6 +24,17 @@ class SideBar extends Component {
             <NavText>Resume</NavText>
           </NavItem>
           <NavItem eventKey="Algovisual">
+            <NavIcon>
+              <img
+                src={AlgovisualIcon}
+                width={40}
+                height={40}
+                alt="Algovisual"
+              />
+            </NavIcon>
+            <NavText>AlgoVisual</NavText>
+          </NavItem>
+          <NavItem eventKey="/user">
             <NavIcon>
               <img
                 src={AlgovisualIcon}
