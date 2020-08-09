@@ -45,7 +45,7 @@
   weight = 6
 
 [[main]]
-identifier = "talks"
-name = "talks"
-url = "talks"
+identifier = "resume"
+name = "resume"
+url = "resume.pdf"
 weight = 6

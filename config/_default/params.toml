@@ -38,7 +38,7 @@ summaryShape = "classic" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
-talksPaginate = 8 # items per page
+talksPaginate = 7 # items per page
 talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
@@ -143,12 +143,12 @@ commento = false
   instagram = "https://instagram.com/rishabhdeepsingh"
   google-plus = ""
   youtube = ""
-  medium = ""
+  medium = "https://medium.com/@rishabhdeepsingh"
   tumblr = ""
   linkedin = "https://www.linkedin.com/in/rishabhdeepsingh/"
   pinterest = ""
   stack-exchange = ""
-  telegram = "+91-8557030007"
+  telegram = "https://t.me/iamwhiteknife"
   steam = ""
   weibo = ""
   douban = ""
