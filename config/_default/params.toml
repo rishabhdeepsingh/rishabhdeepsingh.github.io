@@ -1,10 +1,10 @@
 logoText = "Home" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
-logo = false # Logo that appears in the site navigation bar.
+logo = true # Logo that appears in the site navigation bar.
 description = "Rishabhdeep Singh's site." # for SEO
 custom_css = ["css/font.css"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
-useFaviconGenerator = false # https://www.favicon-generator.org/
+useFaviconGenerator = true # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
 
 themeOptions = ["hacker", "dark", "kimbie"] # select options for site color theme
@@ -20,7 +20,7 @@ hideSingleContentsWhenJSDisabled = false
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # header
-homeHeaderType = "typewriter" # text, img, slide, typewriter
+homeHeaderType = "text" # text, img, slide, typewriter
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
@@ -33,7 +33,7 @@ enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
-enableWhoami = false # at the end of single page
+enableWhoami = true # at the end of single page
 summaryShape = "compact" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
@@ -48,7 +48,7 @@ whoami = "CTF Player | Algorithmist | Learner"
 bioImageUrl = "images/my.jpeg" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = true # we use this option highest priority
 location = "Gurdaspur, Punjab"
-organization = "Hugo"
+organization = ""
 link = "https://github.com/rishabhdeepsingh"
 
 # sidebar
@@ -62,7 +62,7 @@ enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
 hideToc = false # Hide or Show toc
-tocPosition = "inner" # inner, outer
+tocPosition = "outer" # inner, outer
 tocFolding = false
 enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
