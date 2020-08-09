@@ -8,4 +8,4 @@ comments: false
 I am Rishabhdeep Singh.
 
 - I rock a great beard
-- I like CTF's, algorithms
+- I like CTF's, => algorithms
