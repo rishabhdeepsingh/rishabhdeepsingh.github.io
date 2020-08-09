@@ -7,14 +7,14 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 useFaviconGenerator = false # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
 
-themeOptions = ["hacker", "dark", "solarized", "kimbie"] # select options for site color theme
+themeOptions = ["hacker", "dark", "kimbie"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 enablePinnedPosts = true # show pinned posts first in the main view
 
-viewportSize = "normal" # widest, wider, wide, normal, narrow
+viewportSize = "wide" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
@@ -33,8 +33,8 @@ enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
-enableWhoami = true # at the end of single page
-summaryShape = "classic" # card, classic, compact
+enableWhoami = false # at the end of single page
+summaryShape = "compact" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 13 # items per page
 paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
@@ -46,7 +46,7 @@ myname = "Rishabhdeep Singh"
 email = "rishabhdeepsingh98@gmail.com"
 whoami = "CTF Player | Algorithmist | Learner"
 bioImageUrl = "images/my.jpeg" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
-useGravatar = false # we use this option highest priority
+useGravatar = true # we use this option highest priority
 location = "Gurdaspur, Punjab"
 organization = "Hugo"
 link = "https://github.com/rishabhdeepsingh"
@@ -68,7 +68,7 @@ enableTocSwitch = true # single page table of contents visibility switch
 itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 sidebarPosition = "right" # bio, profile component layout position
 tocLevels = ["h2", "h3", "h4"] # minimum h2, maximum h4 in your article
-enableSidebarPostsByOrder = false # another lists in the sidebar
+enableSidebarPostsByOrder = true # another lists in the sidebar
 
 # footer
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
