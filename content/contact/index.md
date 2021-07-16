@@ -1,8 +1,8 @@
 ---
-title: "Contact Me"
-date: 2019-12-17T23:58:33+09:00
+date: "2019-12-17T23:58:33+09:00"
 description: Contact page
-type: contact
+formId: rishabhdeepsingh98@email.com
 service: formspree
-formId: "rishabhdeepsingh98@email.com"
+title: Contact Me
+type: contact
 ---

@@ -1,0 +1,180 @@
+logoText: Home
+logoType: short
+logo: true
+description: Rishabhdeep Singh's site.
+custom_css:
+  - css/font.css
+custom_js: []
+useFaviconGenerator: true
+languagedir: ltr
+themeOptions:
+  - hacker
+  - dark
+  - kimbie
+notAllowedTypesInHome:
+  - contact
+  - talks
+  - about
+  - showcase
+notAllowedTypesInHomeSidebar:
+  - about
+  - archive
+  - showcase
+notAllowedTypesInArchive:
+  - about
+  - talks
+  - showcase
+notAllowedTypesInHomeFeed:
+  - about
+  - archive
+  - contact
+  - talks
+  - showcase
+  - publication
+  - presentation
+  - resume
+  - gallery
+enablePinnedPosts: true
+viewportSize: wide
+enableUiAnimation: true
+hideSingleContentsWhenJSDisabled: false
+minItemsToShowInTagCloud: 1
+homeHeaderType: text
+showMobileMenuTerms:
+  - tags
+  - categories
+  - series
+enableThemeChange: true
+enableBreadcrumb: true
+enableSearch: true
+enableSearchHighlight: true
+enableGoToTop: true
+enableWhoami: true
+summaryShape: compact
+archiveGroupByDate: "2006"
+archivePaginate: 13
+paginateWindow: 1
+talksPaginate: 7
+talksGroupByDate: "2006"
+myname: Rishabhdeep Singh
+email: rishabhdeepsingh98@gmail.com
+whoami: CTF Player | Algorithmist | Learner
+bioImageUrl: images/my.jpeg
+useGravatar: true
+location: "Gurdaspur, Punjab"
+organization: ""
+link: "https://github.com/rishabhdeepsingh"
+enableBio: true
+enableBioImage: true
+enableSidebar: true
+enableSidebarTags: true
+enableSidebarSeries: true
+enableSidebarCategories: true
+enableHomeSidebarTitles: true
+enableListSidebarTitles: true
+enableToc: true
+hideToc: false
+tocPosition: outer
+tocFolding: false
+enableTocSwitch: true
+itemsPerCategory: 5
+sidebarPosition: right
+tocLevels:
+  - h2
+  - h3
+  - h4
+enableSidebarPostsByOrder: true
+showPoweredBy: true
+showFeedLinks: false
+showSocialLinks: true
+enableLangChange: false
+googleTagManager: ""
+baiduAnalytics: ""
+enableBusuanzi: false
+busuanziSiteUV: true
+busuanziSitePV: true
+busuanziPagePV: true
+enableComment: true
+disqus_shortname: ""
+commento: false
+gitment:
+  owner: ""
+  repo: ""
+  clientId: ""
+  clientSecret: ""
+utterances:
+  owner: ""
+  repo: ""
+  message: ""
+  link: ""
+gitalk:
+  owner: ""
+  repo: ""
+  clientId: ""
+  clientSecret: ""
+valine:
+  enable: false
+  appId: 你的appId
+  appKey: 你的appKey
+  notify: false
+  verify: false
+  avatar: mm
+  placeholder: 说点什么吧...
+  visitor: false
+changyan:
+  changyanAppid: ""
+  changyanAppkey: ""
+livere:
+  livereUID: ""
+isso:
+  enable: false
+  scriptSrc: ""
+  dataAttrs: ""
+socialOptions:
+  email: "mailto:rishabhdeepsingh98@email.com"
+  phone: +91-8557030007
+  facebook: "https://www.facebook.com/rishabhdeepsingh98"
+  twitter: "https://twitter.com/rds_98"
+  github: "https://github.com/rishabhdeepsingh"
+  stack-overflow: "https://stackoverflow.com/users/8077496/rishabh-deep-singh"
+  instagram: "https://instagram.com/rishabhdeepsingh"
+  google-plus: ""
+  youtube: ""
+  medium: "https://medium.com/@rishabhdeepsingh"
+  tumblr: ""
+  linkedin: "https://www.linkedin.com/in/rishabhdeepsingh/"
+  pinterest: ""
+  stack-exchange: "https://stackexchange.com/users/10979373/rishabh-deep-singh"
+  telegram: "https://t.me/iamwhiteknife"
+  steam: ""
+  weibo: ""
+  douban: ""
+  csdn: ""
+  gitlab: "https://gitlab.com/rishabhdeepsingh"
+  mastodon: ""
+  jianshu: ""
+  zhihu: ""
+  signal: ""
+  whatsapp: "https://wa.me/918557030007"
+  matrix: ""
+  xmpp: ""
+  dev-to: "https://dev.to/rishabhdeepsingh"
+  gitea: ""
+  google-scholar: ""
+  twitch: ""
+donationOptions:
+  enable: false
+  alipay: ""
+  wechat: ""
+  paypal: ""
+  patreon: ""
+  bitcoin: ""
+copyrightOptions:
+  enableCopyrightLink: false
+  copyrightLink: ""
+  copyrightLinkImage: ""
+  copyrightLinkText: ""
+share:
+  - name: facebook
+  - name: twitter
+    username: rds_98

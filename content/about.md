@@ -1,8 +1,8 @@
 ---
-title: About me
-subtitle: Why you'd want to hang out with me
-publishDate: 2019-12-31
 comments: false
+publishDate: "2019-12-31"
+subtitle: Why you'd want to hang out with me
+title: About me
 ---
 
 I am Rishabhdeep Singh.
