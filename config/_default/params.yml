@@ -50,7 +50,7 @@ enableSearch: true
 enableSearchHighlight: true
 enableGoToTop: true
 enableWhoami: true
-summaryShape: card
+summaryShape: classic
 archiveGroupByDate: "2019"
 archivePaginate: 13
 paginateWindow: 2
@@ -162,3 +162,11 @@ share:
   - name: facebook
   - name: twitter
     username: rds_98
+writtenTimeIcon: "📅"
+modifiedTimeIcon: "📝"
+readingTimeIcon: "☕"
+authorIcon: "✍️"
+pagePvIcon: "👀"
+tagIcon: "🏷️"
+publicationIcon: "📚"
+typeIcon: "🎯"

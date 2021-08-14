@@ -1,4 +1,8 @@
 main:
+  - identifier: writeups
+    name: Writeups
+    url: writeups
+    weight: 1
   - identifier: posts
     name: Posts
     url: posts
