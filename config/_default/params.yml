@@ -48,6 +48,7 @@ enableThemeChange: true
 enableBreadcrumb: true
 enableSearch: true
 enableSearchHighlight: true
+enableAppbarSearchIcon: true
 enableGoToTop: true
 enableWhoami: true
 summaryShape: classic
