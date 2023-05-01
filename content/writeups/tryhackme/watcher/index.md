@@ -1,7 +1,22 @@
 ---
-title: "Watcher"
-date: 2023-05-01T17:22:03+05:30
-draft: true
+title: "Tryhackme: Watcher"
+date: 2023-05-01T17:27:49+05:30
+description: "watcher solution"
+draft: false
+hideToc: false
+enableToc: true
+enableTocContent: false
+tocFolding: false
+tocPosition: inner
+tocLevels: ["h2", "h3", "h4"]
+tags:
+- 
+series:
+- tryhackme
+categories:
+- writeup
+- boxes
+image:
 ---
 
 Nmap scan:
