@@ -1,5 +1,5 @@
 ---
-title: "Tryhackme: Watcher"
+title: "Tryhackme: [Watcher](https://tryhackme.com/room/watcher)"
 date: 2023-05-01T17:27:49+05:30
 description: "THM watcher box solution"
 draft: false
@@ -19,8 +19,6 @@ categories:
 - boxes
 image:
 ---
-
-Start the room by going to [TryHackMe: Watcher](https://tryhackme.com/room/watcher)
 
 ### Nmap scan:
 ```
