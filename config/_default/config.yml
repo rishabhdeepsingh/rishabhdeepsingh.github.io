@@ -9,10 +9,11 @@ buildFuture: true
 copyright: "©{year}, All Rights Reserved"
 timeout: 10000
 enableEmoji: true
-paginate: 13
 rssLimit: 100
 enableGitInfo: true
 googleAnalytics: "G-X0RTH6PQW5"
+pagination:
+  pageSize: 10
 markup:
   goldmark:
     renderer:

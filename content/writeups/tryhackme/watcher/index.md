@@ -1,5 +1,5 @@
 ---
-title: "Tryhackme: [Watcher](https://tryhackme.com/room/watcher)"
+title: "[THM] Watcher"
 date: 2023-05-01T17:27:49+05:30
 description: "THM watcher box solution"
 draft: false
